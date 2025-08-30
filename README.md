@@ -12,7 +12,7 @@ A comprehensive implementation for evaluating AI model memorisation through synt
 - [Training and Tracking](#training-and-tracking)
 - [Evaluation Framework](#evaluation-framework)
 - [Usage Workflow](#usage-workflow)
-- [Examples](#examples)
+- [Output Structure](#output-structure)
 
 ## Overview
 
