@@ -1,6 +1,11 @@
 # Memorisation Risk Assessment System
+## Investigating Memorisation in AI: A Benchmarking Approach
+
 
 A comprehensive implementation for evaluating AI model memorisation through synthetic "canary" data. This system provides end-to-end functionality for creating, tracking, training with, and evaluating canaries across different experimental conditions.
+
+## Introduction
+This repo is the code base for the thesis "Investigating Memorisation in AI: A Benchmarking Approach" at the Technical University of Denmark (DTU). The thesis is written by Maria Christine Neiiendam and supervised by Sneha Das and Line Clemmensen. 
 
 ## Table of Contents
 
