@@ -36,8 +36,8 @@ git clone [repository-url]
 cd memorisation_toolkit
 
 # Create virtual environment
-python -m venv memory
-source memory/bin/activate 
+python -m venv my_venv
+source my_venv/bin/activate 
 
 # Install dependencies
 pip install -r requirements.txt
