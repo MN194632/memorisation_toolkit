@@ -298,14 +298,23 @@ output_dir/                    # e.g., "15x_results"
 ├── canary_tracking/
 │   ├── canary_assignments.csv
 │   └── frequency_summary.csv
+├── checkpoint-xxxxx/
+│   ├── model.safetensors
+│   ├── training_args.bin
+│   ├── tokenizer.json
+    .
+    .
+    .
+│   └── config.json/
+.
+.
+.
 ├── evaluation/
 │   └── checkpoint-xxxxx/
 │       ├── tracked_canary_evaluation.csv
 │       ├── tracked_canary_exposure.csv
 │       ├── librispeech_evaluation_samples.csv
 │       └── plots/
-├── forgetting/                # If running forgetting experiments
-│   └── checkpoint-xxxxx/
 └── across_speed_analysis/     # If running cross-speed analysis
     ├── MASTER.csv
     ├── summary_by_checkpoint.csv
