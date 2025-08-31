@@ -7,6 +7,8 @@ A comprehensive implementation for evaluating AI model memorisation through synt
 ## Introduction
 This repo is the code base for the thesis "Investigating Memorisation in AI: A Benchmarking Approach" at the Technical University of Denmark (DTU). The thesis is written by Maria Christine Neiiendam and supervised by Sneha Das and Line Clemmensen. 
 
+Please refer to the thesis for further for details on this method and its limitations.
+
 ## Table of Contents
 
 - [Overview](#overview)
