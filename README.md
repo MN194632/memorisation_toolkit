@@ -61,10 +61,9 @@ python canary_experiments/create_random_sentence_canaries.py \
 ```
 
 **Features:**
-- **Text Generation**: Creates sentences by randomly sampling 10 words from the top 10,000 most common English words
+- **Text Generation**: Creates sentences by randomly sampling 10 words from the top 10,000 most common words in the LibriSpeech corpus
 - **Speech Synthesis**: Converts text to speech using SpeechT5 with randomised speaker embeddings from the CMU Arctic dataset
 - **Multi-speed Generation**: Produces audio at various speed factors (1x, 1.5x, 2x, 2.5x, 3x, 3.5x, 4x)
-- **Batch Processing**: Supports generating large numbers of canaries with specified parameters
 
 ### Natural Sentence Canaries
 
@@ -80,9 +79,10 @@ python canary_experiments/create_normal_sentence_canaries.py \
 ```
 
 **Features:**
-- **Source Data**: Utilises the C4 dataset
+- **Text Generation**: Utilises the C4 dataset
 - **Filtering**: Applies length constraints (40-70 characters) and removes sentences with numbers or special characters
-- **Multi-speed Support**: Generates the same sentence at multiple speed factors for comparative analysis
+- **Speech Synthesis**: Converts text to speech using SpeechT5 with randomised speaker embeddings from the CMU Arctic dataset
+- **Multi-speed Generation**: Produces audio at various speed factors (1x, 1.5x, 2x, 2.5x, 3x, 3.5x, 4x)
 
 ## File Structure Requirements
 
